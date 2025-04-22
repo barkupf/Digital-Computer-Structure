@@ -61,6 +61,22 @@ Design a FSM which contains the next states:
 3. *State 2 (PB1)*: When PB1 is pushed, a single LED will be turned on, moving from right to left with a delay of 0.5 seconds between each step. This mode will run for 7 seconds, with the LED continuing from where it left off in subsequent activations.
 4. *State 3 (PB2)*: When PB2 is first pushed, generate a PWM signal on pin P2.7 with a frequency of 4 kHz and a 75% Duty Cycle. When it is pushed for the second time, generate a PWM signal on pin P2.7 with a frequency of 2 kHz and a 25% Duty Cycle. This toggling continues with each press.
 
+ ### Lab 2
+ #### Aim of the Laboratory:
+#### Lab task:
+
+### Lab 3
+ #### Aim of the Laboratory:
+#### Lab task:
+
+### Lab 4
+ #### Aim of the Laboratory:
+#### Lab task:
+
+### Final Project
+ #### Aim of the Laboratory:
+#### Lab task:
+
 
 
 
