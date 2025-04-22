@@ -13,12 +13,10 @@ Each lab has a **preparation task** and a **real time task**.
     - [Final Project](#final-project)
 
  ## Structure
-For each Lab will be 3 folders:
-- `Lab_j_PreTask` — contains the task files provided by **Hanan Ribo**, including instructions and any starter code.
-- `Lab_j_PreSol` — contains the **preparation task solution code**, including `.c` source files and `.h` header files.
-- `Lab_j_RealTime` — contains the **real-time task description** and the corresponding solution code, including `.c` and `.h` files, as well as a description of the implementation.
-
-> `j` represents the lab number (e.g., `Lab_1_PreTask`, `Lab_2_RealTime`, etc.).
+In each Lab folder will be 3 folders:
+- `PreTask` — contains the task files provided by **Hanan Ribo**, including instructions and any starter code.
+- `PreSol` — contains the **preparation task solution code**, including `.c` source files and `.h` header files.
+- `RealTime` — contains the **real-time task description** and the corresponding solution code, including `.c` and `.h` files, as well as a description of the implementation.
 
 ## Tools/Setup 🛠️
 
