@@ -4,8 +4,9 @@
 This folder contains my **solution** to the preparation task for Lab 1.
 
 ## Contents
-- C source files (`.c`)
-- Header files (`.h`)
+- CCS folder inside:
+  - source folder with the source files (`.c`)
+  - header folder with header files (`.h`)
 
 ## Notes
 - Code is written in C for the MSP430 microcontroller.
