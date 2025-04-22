@@ -56,10 +56,10 @@ For this course, the following tools and environment setup are required to work 
 The goal of this lab is to implement a generic system-level code in C, structured into abstraction layers. The code will be based on a finite state machine (FSM) and will be designed to run on two different processor families (MSP430x2xx and MSP430x4xx).
 #### Lab task:
 Design a FSM which contains the next states:
-1. *Idle State (0 = Idle = State)*: When no buttons are pushed, the system enters the sleep mode, turning off the LEDs and conserving power.
-2. *State 1 (PB0)*: When PB0 is first pushed, turn on 8 LEDs in a binary counting pattern (counting upwards). When it is pushed for the second time, turn on 8 LEDs in a binary counting pattern (counting downwards). This toggling continues with each press. The counting resumes from where it last stopped. The counting will occur in a periodic loop with a delay of 0.5 seconds between each increment/decrement. This mode will run for 10 seconds before the system transitions to the idle state.
-3. *State 2 (PB1)*: When PB1 is pushed, a single LED will be turned on, moving from right to left with a delay of 0.5 seconds between each step. This mode will run for 7 seconds, with the LED continuing from where it left off in subsequent activations.
-4. *State 3 (PB2)*: When PB2 is first pushed, generate a PWM signal on pin P2.7 with a frequency of 4 kHz and a 75% Duty Cycle. When it is pushed for the second time, generate a PWM signal on pin P2.7 with a frequency of 2 kHz and a 25% Duty Cycle. This toggling continues with each press.
+1. *Idle State (0 = Idle = State)*:sleep mode, turning off the LEDs and conserving power.
+2. *State 1 (PB0)*: When PB0 is pushed perform a binary counting pattern (counting upwards/downwards).
+3. *State 2 (PB1)*: When PB1 is pushed, a single LED will be turned on, moving from right to left.
+4. *State 3 (PB2)*: When PB2 is first pushed, generate a PWM signal on pin P2.7.
 
  ### Lab 2
  #### Aim of the Laboratory:
