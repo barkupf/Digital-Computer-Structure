@@ -2,6 +2,12 @@
 This repository contains Labs from a university course on computer structure, covering C programming, system programming, GPIO, interrupts, timers, ADC/DAC, DMA, and serial communication. The labs are conducted on **real hardware using the MSP430 microcontroller** and developed using C and embedded programming techniques.
 Each lab has a **preparation task** and a **real time task**.
 
+## 👥 Contributors
+
+- [Bar Kupferschmied](https://github.com/barkupf)
+- [Rotem Arbiv](https://github.com/RotemArbiv27)
+
+
 ## Table of contents 🔗
 - [Structure](#Structure)
 - [Tools/Setup](#Tools/Setup)
