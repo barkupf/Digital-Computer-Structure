@@ -6,10 +6,10 @@ Each lab has a **preparation task** and a **real time task**.
 - [Structure](#Structure)
 - [Tools/Setup](#Tools/Setup)
 - [Labs](#Labs)
-    - [Lab 1](###lab-1)
-    - [Lab 2](###lab-2)
-    - [Lab 3](###lab-3)
-    - [Lab 4](###lab-4)
+    - [Lab 1](#lab-1)
+    - [Lab 2](#lab-2)
+    - [Lab 3](#lab-3)
+    - [Lab 4](#lab-4)
     - [Final Project](#final-project)
 
  ## Structure
